@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StartGameSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="shuai">
+			<tween:TweenItem target="{shou}">
+				<tween:Set>
+					<tween:props>
+						<e:Object width="{146.43}" height="{98.24}" x="{271.21}" y="{360.65}" rotation="{17.32}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{-15}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{18}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{-15}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{17.32}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="qa">
+			<tween:TweenItem target="{qiuc}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{360}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{156}" y="{746}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleY="{0.63}" scaleX="{0.63}" y="{681.13}" alpha="{1}" x="{324}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleY="{0.5}" scaleX="{0.5}" y="{650}" alpha="{0}" rotation="{360}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1604a7e867c" ></w:Config>
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" x="0" y="0">
+		<e:Image source="serve-beijin_jpg" x="0" y="0"/>
+		<e:Image id="qiua" source="qiu2_png" y="750.5" width="160" height="160" horizontalCenter="0"/>
+		<e:Image id="qiub" source="qiu1_png" y="763" width="135" height="135" horizontalCenter="0"/>
+		<e:Image id="qiuc" source="qiu_png" y="832.5" width="116" height="116" anchorOffsetX="56" anchorOffsetY="58" x="318"/>
+		<e:Image source="ren_png" x="194" y="276"/>
+		<e:Image id="shou" source="shouji_png" x="270" y="358" anchorOffsetX="84" anchorOffsetY="62"/>
+		<e:Image source="power_png" x="208" y="532"/>
+		<e:Group width="224" height="22" x="222" y="536">
+			<e:Image id="jindu" source="power1_png" x="-6" y="0" width="0" scaleX="1" scaleY="1" height="22"/>
+		</e:Group>
+		<e:Label text="连续甩动手机储力发球" x="176" y="470" bold="true" textColor="0x025aab"/>
+		<e:Label id="time" text="" y="130" bold="true" size="70" horizontalCenter="0.5" textColor="0xfc0505"/>
+	</e:Group>
+</e:Skin>

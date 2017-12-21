@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="IndexSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="ballAni">
+			<tween:TweenItem target="{middle}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="1000">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{big}">
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0.3}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object alpha="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="group">
+			<tween:TweenItem target="{group0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{-725}" alpha="{0.3}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{explain}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{365}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{up}">
+				<tween:Set>
+					<tween:props>
+						<e:Object rotation="{180}" x="{393}" y="{1115}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{755}" rotation="{180}" x="{393}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object y="{395}" rotation="{180}" x="{393}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{rule}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{412}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="gruopDown">
+			<tween:TweenItem target="{group0}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{-725}" alpha="{0.3}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{0}" alpha="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{explain}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{365}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{1086}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{up}">
+				<tween:Set>
+					<tween:props>
+						<e:Object x="{373}" rotation="{0}" y="{380}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object rotation="{0}" x="{373}" y="{740}"/>
+					</tween:props>
+				</tween:To>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object x="{373}" y="{1103}" rotation="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+			<tween:TweenItem target="{rule}">
+				<tween:Set>
+					<tween:props>
+						<e:Object y="{412}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object y="{1136}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1604a7bed91" ></w:Config>
+	<e:Group id="group0" left="0" right="0" height="1136" y="0">
+		<e:Image id="bg" source="index_jpg" top="0" horizontalCenter="0" bottom="0"/>
+		<e:Image id="big" source="qiu2_png" y="760.94" anchorOffsetX="0" width="160" anchorOffsetY="0" height="160" rotation="360" horizontalCenter="0"/>
+		<e:Image id="middle" source="qiu1_png" y="775.94" anchorOffsetX="0" width="135" anchorOffsetY="0" height="135" horizontalCenter="0"/>
+		<e:Image id="ball" source="qiu_png" y="784" width="116" height="116" horizontalCenter="0"/>
+		<e:Label text="点击开始发球" y="952.64" bold="true" textAlign="center" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="explain" source="tixing_png" horizontalCenter="0" y="1086"/>
+	<e:Image id="up" source="jiantou_png" x="372.44" y="1103"/>
+	<e:Image id="rule" source="explain_jpg" anchorOffsetX="2" anchorOffsetY="0" horizontalCenter="0" x="0" y="1136" scaleX="1" scaleY="1"/>
+</e:Skin>

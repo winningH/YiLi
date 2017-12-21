@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlaySkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+		<tween:TweenGroup id="gameOver">
+			<tween:TweenItem target="{result}">
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object y="{0}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="user">
+			<tween:TweenItem target="{userType}">
+				<tween:Set/>
+				<tween:To duration="500">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{327}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1604fe01506" ></w:Config>
+	<e:Group id="playing" width="640" x="0" height="1136" y="0">
+		<e:Image id="bgPic1" source="game-beijing_jpg" y="-3754" anchorOffsetX="0" width="640" anchorOffsetY="0" height="4890" left="0"/>
+	</e:Group>
+	<e:Label text="千米" y="1076" horizontalCenter="36" size="35"/>
+	<e:Label id="kmPlaying" text="0" bottom="22" size="38" width="120" textAlign="center" x="225" textColor="0xddb51a" verticalAlign="middle"/>
+	<e:Group id="userType" width="450" height="280" scaleX="0" scaleY="0" anchorOffsetX="232" anchorOffsetY="144" x="872" y="568">
+		<e:Image source="if_jpg" left="0" right="0" top="0" bottom="0" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1"/>
+		<e:Image id="yes" source="shi_png" y="163" x="40"/>
+		<e:Image id="no" source="fou_png" y="163" x="247"/>
+	</e:Group>
+	<e:Group id="result" scaleX="1" scaleY="1" y="-1136" width="640" x="0" height="1136">
+		<e:Image id="bg" source="bg_hui_jpg" y="0" alpha="0.7" x="0"/>
+		<e:Image source="lotto-qiu_png" y="134" horizontalCenter="0"/>
+		<e:Image source="lotto-xing_png" y="340" horizontalCenter="0"/>
+		<e:Label id="level" text="业余选手水平" y="450" size="32" textColor="0xfbea27" horizontalCenter="0"/>
+		<e:Label text="你发球的距离长达" x="85" y="520" size="32"/>
+		<e:Label id="kmResult" text="0" x="352" y="520" width="150" textAlign="center" textColor="0xfbea27" size="35" italic="true"/>
+		<e:Label text="km" x="512" y="520" size="32"/>
+		<e:Image id="lotto" source="lotto-new_png" y="700" horizontalCenter="0"/>
+		<e:Image id="playAgain" source="lotto-agin_png" y="850" horizontalCenter="0"/>
+	</e:Group>
+	<e:Image id="tennic" source="game-qiu_png" x="246" bottom="0"/>
+</e:Skin>

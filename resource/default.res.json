@@ -1,0 +1,401 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,bg_jpg,egret_icon_png,description_json",
+			"name": "preload"
+		},
+		{
+			"keys": "qiu_png,qiu1_png,qiu2_png,serve-beijin_jpg,shouji_png,ren_png,wangqiu_mp3",
+			"name": "startgame"
+		},
+		{
+			"keys": "index_jpg,qiu_png,qiu1_png,qiu2_png,beijing_mp3",
+			"name": "index"
+		},
+		{
+			"keys": "result-1_png,result-beijing_png,bg-mo_jpg,paihang_png,result-2_png,result-3_png,result2_png,share_png,tijiao_png,xuanyao_png,paihang2_png,bg_hui_jpg,bizhi_jpg",
+			"name": "share"
+		},
+		{
+			"keys": "game-qiu_png,game-beijing_jpg,fou_png,lotto-xing_png,game-yu_png,if_jpg,bg_hui_jpg,shi_png,pingzi_png,youxibeijing_mp3,shibai_mp3",
+			"name": "play"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "result-1"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/game/again.png",
+			"type": "image",
+			"name": "again_png"
+		},
+		{
+			"url": "assets/game/bizhi.jpg",
+			"type": "image",
+			"name": "bizhi_jpg"
+		},
+		{
+			"url": "assets/game/chenggong.png",
+			"type": "image",
+			"name": "chenggong_png"
+		},
+		{
+			"url": "assets/game/explain.jpg",
+			"type": "image",
+			"name": "explain_jpg"
+		},
+		{
+			"url": "assets/game/fanhui.png",
+			"type": "image",
+			"name": "fanhui_png"
+		},
+		{
+			"url": "assets/game/fou.png",
+			"type": "image",
+			"name": "fou_png"
+		},
+		{
+			"url": "assets/game/game-beijing.jpg",
+			"type": "image",
+			"name": "game-beijing_jpg"
+		},
+		{
+			"url": "assets/game/game-beijing_01.jpg",
+			"type": "image",
+			"name": "game-beijing_01_jpg"
+		},
+		{
+			"url": "assets/game/game-beijing_02.png",
+			"type": "image",
+			"name": "game-beijing_02_png"
+		},
+		{
+			"url": "assets/game/game-qiu.png",
+			"type": "image",
+			"name": "game-qiu_png"
+		},
+		{
+			"url": "assets/game/game-yu.png",
+			"type": "image",
+			"name": "game-yu_png"
+		},
+		{
+			"url": "assets/game/if.jpg",
+			"type": "image",
+			"name": "if_jpg"
+		},
+		{
+			"url": "assets/game/index.jpg",
+			"type": "image",
+			"name": "index_jpg"
+		},
+		{
+			"url": "assets/game/jiantou.png",
+			"type": "image",
+			"name": "jiantou_png"
+		},
+		{
+			"url": "assets/game/lotto-agin.png",
+			"type": "image",
+			"name": "lotto-agin_png"
+		},
+		{
+			"url": "assets/game/lotto-beijing.jpg",
+			"type": "image",
+			"name": "lotto-beijing_jpg"
+		},
+		{
+			"url": "assets/game/lotto-new.png",
+			"type": "image",
+			"name": "lotto-new_png"
+		},
+		{
+			"url": "assets/game/lotto-qiu.png",
+			"type": "image",
+			"name": "lotto-qiu_png"
+		},
+		{
+			"url": "assets/game/lotto-xing.png",
+			"type": "image",
+			"name": "lotto-xing_png"
+		},
+		{
+			"url": "assets/game/paihang.png",
+			"type": "image",
+			"name": "paihang_png"
+		},
+		{
+			"url": "assets/game/pingzi.png",
+			"type": "image",
+			"name": "pingzi_png"
+		},
+		{
+			"url": "assets/game/power.png",
+			"type": "image",
+			"name": "power_png"
+		},
+		{
+			"url": "assets/game/power1.png",
+			"type": "image",
+			"name": "power1_png"
+		},
+		{
+			"url": "assets/game/qiu.png",
+			"type": "image",
+			"name": "qiu_png"
+		},
+		{
+			"url": "assets/game/qiu1.png",
+			"type": "image",
+			"name": "qiu1_png"
+		},
+		{
+			"url": "assets/game/qiu2.png",
+			"type": "image",
+			"name": "qiu2_png"
+		},
+		{
+			"url": "assets/game/ren.png",
+			"type": "image",
+			"name": "ren_png"
+		},
+		{
+			"url": "assets/game/result-1.png",
+			"type": "image",
+			"name": "result-1_png"
+		},
+		{
+			"url": "assets/game/result-2.png",
+			"type": "image",
+			"name": "result-2_png"
+		},
+		{
+			"url": "assets/game/result-3.png",
+			"type": "image",
+			"name": "result-3_png"
+		},
+		{
+			"url": "assets/game/result-beijing.png",
+			"type": "image",
+			"name": "result-beijing_png"
+		},
+		{
+			"url": "assets/game/result.png",
+			"type": "image",
+			"name": "result_png"
+		},
+		{
+			"url": "assets/game/result2.png",
+			"type": "image",
+			"name": "result2_png"
+		},
+		{
+			"url": "assets/game/serve-beijin.jpg",
+			"type": "image",
+			"name": "serve-beijin_jpg"
+		},
+		{
+			"url": "assets/game/share.png",
+			"type": "image",
+			"name": "share_png"
+		},
+		{
+			"url": "assets/game/shi.png",
+			"type": "image",
+			"name": "shi_png"
+		},
+		{
+			"url": "assets/game/shouji.png",
+			"type": "image",
+			"name": "shouji_png"
+		},
+		{
+			"url": "assets/game/tijiao.png",
+			"type": "image",
+			"name": "tijiao_png"
+		},
+		{
+			"url": "assets/game/tixing.png",
+			"type": "image",
+			"name": "tixing_png"
+		},
+		{
+			"url": "assets/game/xuanyao.png",
+			"type": "image",
+			"name": "xuanyao_png"
+		},
+		{
+			"url": "assets/game/bg-mo.jpg",
+			"type": "image",
+			"name": "bg-mo_jpg"
+		},
+		{
+			"url": "assets/game/paihang2.png",
+			"type": "image",
+			"name": "paihang2_png"
+		},
+		{
+			"url": "assets/game/bg_hui.jpg",
+			"type": "image",
+			"name": "bg_hui_jpg"
+		},
+		{
+			"url": "assets/game/bggg.png",
+			"type": "image",
+			"name": "bggg_png"
+		},
+		{
+			"url": "assets/game/youxibeijing.mp3",
+			"type": "sound",
+			"name": "youxibeijing_mp3"
+		},
+		{
+			"url": "assets/game/beijing.mp3",
+			"type": "sound",
+			"name": "beijing_mp3"
+		},
+		{
+			"url": "assets/game/wangqiu.mp3",
+			"type": "sound",
+			"name": "wangqiu_mp3"
+		},
+		{
+			"url": "assets/game/shibai.mp3",
+			"type": "sound",
+			"name": "shibai_mp3"
+		}
+	]
+}
